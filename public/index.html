@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-TimeLine</title>
+</head>
+<body>
+    
+<section class="post-area">
+    <div class="conatiner my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+             <div class="card shadow-sm">
+                 <div class="card-body">
+                   <div class="user-post">
+                       <img  src="https://unitedthemes.com/wp-content/uploads/2018/09/team1.jpg" alt="">
+                       <button data-bs-toggle="modal" data-bs-target="#post_container">What's on your mind, Joy?</button>
+                   </div>
+                 </div>
+             </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="timeline">
+    <div class="conatiner my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-5" id="post-timeline-load">
+                <!-- Post timeLine Area -->
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+    
+<div class="modal fade" id="post_container">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <h2>Create a Post</h2>
+            </div>
+            <div class="modal-body">
+             <div class="msg"></div>
+                <form id="create_post_form" method="post">
+                    <div class="my-2">
+                        <input name="name" type="text" class="form-control" placeholder="Auth Name">
+                    </div>
+                    <div class="my-2">
+                        <input name="uphoto" type="text" class="form-control" placeholder="Auth Photo">
+                    </div>
+                    <div class="my-2">
+                        <input name="content" type="text" class="form-control" placeholder="content">
+                    </div>
+                    <div class="my-2">
+                        <input name="photo" type="text" class="form-control" placeholder="Photo">
+                    </div>
+                    <div class="my-2">
+                        <input type="submit" class="btn btn-primary w-100" value="Post">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
